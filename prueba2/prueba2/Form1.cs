@@ -29,7 +29,7 @@ namespace prueba2
 
             int num1 = Convert.ToInt16(textBox1.Text);
             int num2 = Convert.ToInt16(textBox2.Text);
-            MessageBox.Show("Respuesta", "La multi es: " + (num1 * num2), MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("La multi es: " + (num1 * num2), "Respuesta",  MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
